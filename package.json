@@ -1,0 +1,23 @@
+{
+  "name": "reason-reanimated",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world"
+  },
+  "keywords": [
+    "BuckleScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "bs-platform": "^7.2.0",
+    "reason-react-native": "0.61.1",
+    "reason-react": ">=0.7.0"
+  },
+  "peerDependencies": {
+    "reason-react-native": "0.61.1",
+    "reason-react": ">=0.7.0"
+  }
+}
